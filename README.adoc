@@ -1,0 +1,39 @@
+= Implementing RSA
+
+== Introduction
+
+In this exercise, you must implement RSA. You can reuse the already made code for Character conversion.
+
+
+
+=== Gradle
+
+https://gradle.org[Gradle] is a powerfull build tool  used for building and executing larger Java projects. It comes with a Gradle wrapper,
+so it can bootstrap itself. The build specification is in the file `build.gradle`, but don't worry, it is set up for you.
+
+You can run the application using the command
+
+ ./gradlew run
+
+It will compile and execute the Main method in the Main class, located in `src/main/java/dk/sdu/imada/Main.java`
+
+You can also use Gradle to execute the tests. For this use
+
+ ./gradlew test
+
+TIP: If you are on windows, use gradlew.bat instead of gradlew
+
+=== Spock Tests
+
+http://spockframework.org/[Spock] is a test framework, that using the http://groovy-lang.org/[Groovy] language is very
+powerfull and readable to write test specifications in.
+
+You can find the tests written for the Fibonnacci calculation in the file `src/test/groovy/dk/sdu/imada/NumberCalculationsSpec.groovy`
+
+== The Tasks
+
+Run the tests using:
+
+ ./gradlew test
+
+Open the test report and look at the test results. You can now working in a TDD (Test Driven Development) way.

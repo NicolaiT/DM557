@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dk.sdu.imada.rsa.AlphabetConversionSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-11-10T14:39:59" hostname="DESKTOP-V2FVHDK" time="0.036">
+  <properties/>
+  <testcase name="Check that numberToString converts correctly '0' =&gt; '00000'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.029"/>
+  <testcase name="Check that numberToString converts correctly '32822818' =&gt; 'hi s7'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check that numberToString converts correctly '69343956' =&gt; '     '" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.002"/>
+  <testcase name="Check that numberToString converts correctly '43855754' =&gt; 'netwo'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check that stringToNumber converts correctly '00000' =&gt; 0" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check that stringToNumber converts correctly '     ' =&gt; 69343956" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that stringToNumber converts correctly 'hi s7' =&gt; 32822818" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that stringToNumber converts correctly 'netwo' =&gt; 43855754" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <system-out><![CDATA[Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 0
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 0000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00000
+
+Remaining numbers: 962081
+Character before dividing: 31860737
+Character in number: 17
+Result: h
+
+Remaining numbers: 50327
+Character before dividing: 911754
+Character in number: 18
+Result: hi
+
+Remaining numbers: 1043
+Character before dividing: 49284
+Character in number: 36
+Result: hi 
+
+Remaining numbers: 7
+Character before dividing: 1036
+Character in number: 28
+Result: hi s
+
+Remaining numbers: 0
+Character before dividing: 7
+Character in number: 7
+Result: hi s7
+
+Remaining numbers: 1874160
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 50652
+Character before dividing: 1823508
+Character in number: 36
+Result:   
+
+Remaining numbers: 1368
+Character before dividing: 49284
+Character in number: 36
+Result:    
+
+Remaining numbers: 36
+Character before dividing: 1332
+Character in number: 36
+Result:     
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result:      
+
+Remaining numbers: 750051
+Character before dividing: 43105703
+Character in number: 23
+Result: n
+
+Remaining numbers: 40909
+Character before dividing: 709142
+Character in number: 14
+Result: ne
+
+Remaining numbers: 1208
+Character before dividing: 39701
+Character in number: 29
+Result: net
+
+Remaining numbers: 24
+Character before dividing: 1184
+Character in number: 32
+Result: netw
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result: netwo
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

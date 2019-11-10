@@ -1,0 +1,160 @@
+7gcd(123456544 , 9955487) is [1 , -2283680 , 28319583]
+2So -2283680 * 123456544 + 28319583 * 9955487 = 1
+r = 1
+s = -2283680
+t = 28319583
+LThe encrypted message for 'what a lovely little coding exercise this is' is
+null
+The ciphertext decrypted is:
+null
+Before: 80.5
+After: 80
+Before: 2.5
+
+After: 2
+Before: 0.5
+
+After: 0
+Before: 4
+
+After: 4
+Before: 379
+After: 379
+Before: 451
+After: 451
+Before: 226
+After: 226
+Before: 121
+After: 121
+Before: 259
+After: 259
+Before: 1
+
+After: 1
+	Before: 500.5
+	After: 500
+	Before: 62.5
+	After: 62
+	Before: 15.5
+	After: 15
+	Before: 7.5
+	
+After: 7
+	Before: 3.5
+	
+After: 3
+	Before: 1.5
+	
+After: 1
+	Before: 52
+	After: 52
+	Before: 1
+	
+After: 1
+	Before: 1
+	
+After: 1
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+
+Result: 0
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 0000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00000
+
+Remaining numbers: 962081
+%Character before dividing: 31860737
+Character in number: 17
+
+Result: h
+
+Remaining numbers: 50327
+#Character before dividing: 911754
+Character in number: 18
+Result: hi
+
+Remaining numbers: 1043
+"Character before dividing: 49284
+Character in number: 36
+Result: hi 
+
+Remaining numbers: 7
+!Character before dividing: 1036
+Character in number: 28
+Result: hi s
+
+Remaining numbers: 0
+Character before dividing: 7
+Character in number: 7
+Result: hi s7
+
+Remaining numbers: 1874160
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 50652
+$Character before dividing: 1823508
+Character in number: 36
+Result:   
+
+Remaining numbers: 1368
+"Character before dividing: 49284
+Character in number: 36
+Result:    
+
+Remaining numbers: 36
+!Character before dividing: 1332
+Character in number: 36
+Result:     
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result:      
+
+Remaining numbers: 750051
+%Character before dividing: 43105703
+Character in number: 23
+
+Result: n
+
+Remaining numbers: 40909
+#Character before dividing: 709142
+Character in number: 14
+Result: ne
+
+Remaining numbers: 1208
+"Character before dividing: 39701
+Character in number: 29
+Result: net
+
+Remaining numbers: 24
+!Character before dividing: 1184
+Character in number: 32
+Result: netw
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result: netwo
+

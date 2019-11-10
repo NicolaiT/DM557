@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class dk.sdu.imada.rsa.AlphabetConversionSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class dk.sdu.imada.rsa.AlphabetConversionSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/dk.sdu.imada.rsa.html">dk.sdu.imada.rsa</a> &gt; AlphabetConversionSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.034s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Check that numberToString converts correctly '0' =&gt; '00000'</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that numberToString converts correctly '32822818' =&gt; 'hi s7'</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that numberToString converts correctly '43855754' =&gt; 'netwo'</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that numberToString converts correctly '69343956' =&gt; '     '</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that stringToNumber converts correctly '     ' =&gt; 69343956</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that stringToNumber converts correctly '00000' =&gt; 0</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that stringToNumber converts correctly 'hi s7' =&gt; 32822818</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check that stringToNumber converts correctly 'netwo' =&gt; 43855754</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 0
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 0000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00000
+
+Remaining numbers: 962081
+Character before dividing: 31860737
+Character in number: 17
+Result: h
+
+Remaining numbers: 50327
+Character before dividing: 911754
+Character in number: 18
+Result: hi
+
+Remaining numbers: 1043
+Character before dividing: 49284
+Character in number: 36
+Result: hi 
+
+Remaining numbers: 7
+Character before dividing: 1036
+Character in number: 28
+Result: hi s
+
+Remaining numbers: 0
+Character before dividing: 7
+Character in number: 7
+Result: hi s7
+
+Remaining numbers: 1874160
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 50652
+Character before dividing: 1823508
+Character in number: 36
+Result:   
+
+Remaining numbers: 1368
+Character before dividing: 49284
+Character in number: 36
+Result:    
+
+Remaining numbers: 36
+Character before dividing: 1332
+Character in number: 36
+Result:     
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result:      
+
+Remaining numbers: 750051
+Character before dividing: 43105703
+Character in number: 23
+Result: n
+
+Remaining numbers: 40909
+Character before dividing: 709142
+Character in number: 14
+Result: ne
+
+Remaining numbers: 1208
+Character before dividing: 39701
+Character in number: 29
+Result: net
+
+Remaining numbers: 24
+Character before dividing: 1184
+Character in number: 32
+Result: netw
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result: netwo
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6</a> at Nov 10, 2019, 3:39:59 PM</p>
+</div>
+</div>
+</body>
+</html>

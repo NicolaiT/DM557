@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-11-10T14:39:59" hostname="DESKTOP-V2FVHDK" time="0.017">
+  <properties/>
+  <testcase name="Check exception is thrown for invalid input: 'A'" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.013"/>
+  <testcase name="Check exception is thrown for invalid input: '-'" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <testcase name="Check exception is thrown for invalid input: '#'" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <testcase name="Check exception is thrown for invalid input: 'æ'" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <testcase name="Check numbers is converted correct: 0 -&gt; 0" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <testcase name="Check numbers is converted correct: 9 -&gt; 9" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <testcase name="Check letter is converted correct: a -&gt; 10" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <testcase name="Check letter is converted correct: z -&gt; 35" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.001"/>
+  <testcase name="Check space is converted correct" classname="dk.sdu.imada.rsa.CharacterToBigDecimalSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
