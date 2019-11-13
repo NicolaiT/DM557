@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dk.sdu.imada.rsa.AlphabetConversionSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-11-10T14:39:59" hostname="DESKTOP-V2FVHDK" time="0.036">
+<testsuite name="dk.sdu.imada.rsa.AlphabetConversionSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-11-13T13:19:37" hostname="DESKTOP-V2FVHDK" time="0.006">
   <properties/>
-  <testcase name="Check that numberToString converts correctly '0' =&gt; '00000'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.029"/>
-  <testcase name="Check that numberToString converts correctly '32822818' =&gt; 'hi s7'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
-  <testcase name="Check that numberToString converts correctly '69343956' =&gt; '     '" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.002"/>
-  <testcase name="Check that numberToString converts correctly '43855754' =&gt; 'netwo'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
-  <testcase name="Check that stringToNumber converts correctly '00000' =&gt; 0" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check that numberToString converts correctly '0' =&gt; '00000'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.002"/>
+  <testcase name="Check that numberToString converts correctly '32822818' =&gt; 'hi s7'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that numberToString converts correctly '69343956' =&gt; '     '" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
+  <testcase name="Check that numberToString converts correctly '43855754' =&gt; 'netwo'" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that stringToNumber converts correctly '00000' =&gt; 0" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
   <testcase name="Check that stringToNumber converts correctly '     ' =&gt; 69343956" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
   <testcase name="Check that stringToNumber converts correctly 'hi s7' =&gt; 32822818" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
-  <testcase name="Check that stringToNumber converts correctly 'netwo' =&gt; 43855754" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.0"/>
+  <testcase name="Check that stringToNumber converts correctly 'netwo' =&gt; 43855754" classname="dk.sdu.imada.rsa.AlphabetConversionSpec" time="0.001"/>
   <system-out><![CDATA[Remaining numbers: 0
 Character before dividing: 0
 Character in number: 0

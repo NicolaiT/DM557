@@ -3,158 +3,1307 @@
 r = 1
 s = -2283680
 t = 28319583
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+i: 5
+i: 6
+i: 7
+i: 8
+i: 9
+i: 10
+i: 10
+i: 11
+i: 12
+i: 13
+i: 14
+i: 15
+i: 15
+i: 16
+i: 17
+i: 18
+i: 19
+i: 20
+i: 20
+i: 21
+i: 22
+i: 23
+i: 24
+i: 25
+i: 25
+i: 26
+i: 27
+i: 28
+i: 29
+i: 30
+i: 30
+i: 31
+i: 32
+i: 33
+i: 34
+i: 35
+i: 35
+i: 36
+i: 37
+i: 38
+i: 39
+i: 40
+i: 40
+i: 41
+i: 42
+i: 43
+i: 44
 LThe encrypted message for 'what a lovely little coding exercise this is' is
-null
+y163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756
+y202574766722208136313166663476564327834649003680637924023400022051716599540600055216461598632129559212761631470750669420
+y598960474564883367427080207709063755391591555682231814415513679734554747491160863687394585193290492889732805804107861555
+y220320145777862357441738877551067816692274577052115135074001448332611340178117207579718665466624807488912315490524200505
+y271582059888190233971804329802513179736903028870275062782161310802841999449479119326303821559863934078329429119891352357
+z1274506126335098257279145700985962069205914183404605046759957752207099277163051066194993909105653141473666302053261269506
+z1207112574213818870057677547911566678577137976266756261325173475348431775451185421263551412603804342392764225452068471571
+y287798322661892771800896866760889466548605993764324633734788160082572355642668947740262567924979636127922885225467414340
+y680340601307072977008828883968687722500620815383938859762893080409916789275240486679313430943956727992275053358071058825
+
 The ciphertext decrypted is:
-null
-Before: 80.5
-After: 80
-Before: 2.5
-
-After: 2
-Before: 0.5
-
-After: 0
-Before: 4
-
-After: 4
-Before: 379
-After: 379
-Before: 451
-After: 451
-Before: 226
-After: 226
-Before: 121
-After: 121
-Before: 259
-After: 259
-Before: 1
-
-After: 1
-	Before: 500.5
-	After: 500
-	Before: 62.5
-	After: 62
-	Before: 15.5
-	After: 15
-	Before: 7.5
-	
-After: 7
-	Before: 3.5
-	
-After: 3
-	Before: 1.5
-	
-After: 1
-	Before: 52
-	After: 52
-	Before: 1
-	
-After: 1
-	Before: 1
-	
-After: 1
-Remaining numbers: 0
-Character before dividing: 0
-Character in number: 0
-
-Result: 0
-
-Remaining numbers: 0
-Character before dividing: 0
-Character in number: 0
-Result: 00
-
-Remaining numbers: 0
-Character before dividing: 0
-Character in number: 0
-Result: 000
-
-Remaining numbers: 0
-Character before dividing: 0
-Character in number: 0
-Result: 0000
-
-Remaining numbers: 0
-Character before dividing: 0
-Character in number: 0
-Result: 00000
-
-Remaining numbers: 962081
-%Character before dividing: 31860737
-Character in number: 17
-
-Result: h
-
-Remaining numbers: 50327
-#Character before dividing: 911754
-Character in number: 18
-Result: hi
-
-Remaining numbers: 1043
-"Character before dividing: 49284
-Character in number: 36
-Result: hi 
-
-Remaining numbers: 7
-!Character before dividing: 1036
-Character in number: 28
-Result: hi s
-
-Remaining numbers: 0
-Character before dividing: 7
-Character in number: 7
-Result: hi s7
-
-Remaining numbers: 1874160
-%Character before dividing: 67469796
-Character in number: 36
-
-Result:  
-
-Remaining numbers: 50652
-$Character before dividing: 1823508
-Character in number: 36
-Result:   
-
-Remaining numbers: 1368
-"Character before dividing: 49284
-Character in number: 36
-Result:    
-
-Remaining numbers: 36
-!Character before dividing: 1332
-Character in number: 36
-Result:     
-
-Remaining numbers: 0
-Character before dividing: 36
-Character in number: 36
-Result:      
-
-Remaining numbers: 750051
-%Character before dividing: 43105703
-Character in number: 23
-
+Remaining numbers: 875900
+%Character before dividing: 59973152
+Character in number: 32
+
+Result: w
+
+Remaining numbers: 14799
+#Character before dividing: 861101
+Character in number: 17
+Result: wh
+
+Remaining numbers: 1109
+"Character before dividing: 13690
+Character in number: 10
+Result: wha
+
+Remaining numbers: 36
+!Character before dividing: 1073
+Character in number: 29
+Result: what
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: what 
+
+Remaining numbers: 1468658
+%Character before dividing: 33734898
+Character in number: 18
+
+Result: i
+
+Remaining numbers: 50374
+$Character before dividing: 1418284
+Character in number: 28
+Result: is
+
+Remaining numbers: 1090
+"Character before dividing: 49284
+Character in number: 36
+Result: is 
+
+Remaining numbers: 17
+!Character before dividing: 1073
+Character in number: 29
+Result: is t
+
+Remaining numbers: 0
+Character before dividing: 17
+Character in number: 17
+Result: is th
+
+Remaining numbers: 1839113
+%Character before dividing: 26238254
+Character in number: 14
+
+Result: e
+
+Remaining numbers: 15605
+$Character before dividing: 1823508
+Character in number: 36
+Result: e 
+
+Remaining numbers: 546
+"Character before dividing: 15059
+Character in number: 11
+Result: e b
+
+Remaining numbers: 28
+ Character before dividing: 518
+Character in number: 14
+Result: e be
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: e bes
+
+Remaining numbers: 1863856
+%Character before dividing: 54350669
+Character in number: 29
+
+Result: t
+
+Remaining numbers: 40348
+$Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 647
+"Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 18
+ Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 18
+Character in number: 18
+Result: t thi
+
+Remaining numbers: 860113
+%Character before dividing: 43105703
+Character in number: 23
+
 Result: n
-
-Remaining numbers: 40909
-#Character before dividing: 709142
-Character in number: 14
-Result: ne
-
-Remaining numbers: 1208
-"Character before dividing: 39701
-Character in number: 29
-Result: net
-
-Remaining numbers: 24
-!Character before dividing: 1184
-Character in number: 32
-Result: netw
-
-Remaining numbers: 0
-Character before dividing: 24
-Character in number: 24
-Result: netwo
-
+
+Remaining numbers: 49665
+#Character before dividing: 810448
+Character in number: 16
+Result: ng
+
+Remaining numbers: 381
+"Character before dividing: 49284
+Character in number: 36
+Result: ng 
+
+Remaining numbers: 11
+ Character before dividing: 370
+Character in number: 10
+Result: ng a
+
+Remaining numbers: 0
+Character before dividing: 11
+Character in number: 11
+Result: ng ab
+
+Remaining numbers: 1560651
+%Character before dividing: 44979864
+Character in number: 24
+
+Result: o
+
+Remaining numbers: 41061
+$Character before dividing: 1519590
+Character in number: 30
+Result: ou
+
+Remaining numbers: 1360
+"Character before dividing: 39701
+Character in number: 29
+Result: out
+
+Remaining numbers: 28
+!Character before dividing: 1332
+Character in number: 36
+Result: out 
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: out s
+
+Remaining numbers: 952764
+%Character before dividing: 59973152
+Character in number: 32
+
+Result: w
+
+Remaining numbers: 41010
+#Character before dividing: 911754
+Character in number: 18
+Result: wi
+
+Remaining numbers: 1309
+"Character before dividing: 39701
+Character in number: 29
+Result: wit
+
+Remaining numbers: 14
+!Character before dividing: 1295
+Character in number: 35
+Result: witz
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: witze
+
+Remaining numbers: 1078267
+%Character before dividing: 50602347
+Character in number: 27
+
+Result: r
+
+Remaining numbers: 14554
+$Character before dividing: 1063713
+Character in number: 21
+Result: rl
+
+Remaining numbers: 864
+"Character before dividing: 13690
+Character in number: 10
+Result: rla
+
+Remaining numbers: 13
+ Character before dividing: 851
+Character in number: 23
+Result: rlan
+
+Remaining numbers: 0
+Character before dividing: 13
+Character in number: 13
+Result: rland
+
+Remaining numbers: 961543
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 49789
+#Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 505
+"Character before dividing: 49284
+Character in number: 36
+Result:  i 
+
+Remaining numbers: 24
+ Character before dividing: 481
+Character in number: 13
+Result:  i d
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result:  i do
+
+Remaining numbers: 1518984
+%Character before dividing: 43105703
+Character in number: 23
+
+Result: n
+
+Remaining numbers: 50047
+$Character before dividing: 1468937
+Character in number: 29
+Result: nt
+
+Remaining numbers: 763
+"Character before dividing: 49284
+Character in number: 36
+Result: nt 
+
+Remaining numbers: 23
+ Character before dividing: 740
+Character in number: 20
+Result: nt k
+
+Remaining numbers: 0
+Character before dividing: 23
+Character in number: 23
+Result: nt kn
+
+Remaining numbers: 1670617
+%Character before dividing: 44979864
+Character in number: 24
+
+Result: o
+
+Remaining numbers: 49721
+$Character before dividing: 1620896
+Character in number: 32
+Result: ow
+
+Remaining numbers: 437
+"Character before dividing: 49284
+Character in number: 36
+Result: ow 
+
+Remaining numbers: 30
+ Character before dividing: 407
+Character in number: 11
+Result: ow b
+
+Remaining numbers: 0
+Character before dividing: 30
+Character in number: 30
+Result: ow bu
+
+Remaining numbers: 1863852
+%Character before dividing: 54350669
+Character in number: 29
+
+Result: t
+
+Remaining numbers: 40344
+$Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 643
+"Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 14
+ Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: t the
+
+Remaining numbers: 788930
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 29135
+#Character before dividing: 759795
+Character in number: 15
+Result:  f
+
+Remaining numbers: 386
+"Character before dividing: 28749
+Character in number: 21
+Result:  fl
+
+Remaining numbers: 16
+ Character before dividing: 370
+Character in number: 10
+Result:  fla
+
+Remaining numbers: 0
+Character before dividing: 16
+Character in number: 16
+Result:  flag
+
+Remaining numbers: 951428
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 39674
+#Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 1342
+"Character before dividing: 38332
+Character in number: 28
+Result:  is
+
+Remaining numbers: 10
+!Character before dividing: 1332
+Character in number: 36
+Result:  is 
+
+Remaining numbers: 0
+Character before dividing: 10
+Character in number: 10
+Result:  is a
+
+Remaining numbers: 1296212
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 29887
+$Character before dividing: 1266325
+Character in number: 25
+Result:  p
+
+Remaining numbers: 1138
+"Character before dividing: 28749
+Character in number: 21
+Result:  pl
+
+Remaining numbers: 28
+!Character before dividing: 1110
+Character in number: 30
+Result:  plu
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result:  plus
+
+Mwhat is the best thing about switzerland i dont know but the flag is a plus
+Remaining numbers: 875900
+%Character before dividing: 59973152
+Character in number: 32
+
+Result: w
+
+Remaining numbers: 14799
+#Character before dividing: 861101
+Character in number: 17
+Result: wh
+
+Remaining numbers: 1109
+"Character before dividing: 13690
+Character in number: 10
+Result: wha
+
+Remaining numbers: 36
+!Character before dividing: 1073
+Character in number: 29
+Result: what
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: what 
+
+Remaining numbers: 1468658
+%Character before dividing: 33734898
+Character in number: 18
+
+Result: i
+
+Remaining numbers: 50374
+$Character before dividing: 1418284
+Character in number: 28
+Result: is
+
+Remaining numbers: 1090
+"Character before dividing: 49284
+Character in number: 36
+Result: is 
+
+Remaining numbers: 17
+!Character before dividing: 1073
+Character in number: 29
+Result: is t
+
+Remaining numbers: 0
+Character before dividing: 17
+Character in number: 17
+Result: is th
+
+Remaining numbers: 1839113
+%Character before dividing: 26238254
+Character in number: 14
+
+Result: e
+
+Remaining numbers: 15605
+$Character before dividing: 1823508
+Character in number: 36
+Result: e 
+
+Remaining numbers: 546
+"Character before dividing: 15059
+Character in number: 11
+Result: e b
+
+Remaining numbers: 28
+ Character before dividing: 518
+Character in number: 14
+Result: e be
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: e bes
+
+Remaining numbers: 1863856
+%Character before dividing: 54350669
+Character in number: 29
+
+Result: t
+
+Remaining numbers: 40348
+$Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 647
+"Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 18
+ Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 18
+Character in number: 18
+Result: t thi
+
+Remaining numbers: 860113
+%Character before dividing: 43105703
+Character in number: 23
+
+Result: n
+
+Remaining numbers: 49665
+#Character before dividing: 810448
+Character in number: 16
+Result: ng
+
+Remaining numbers: 381
+"Character before dividing: 49284
+Character in number: 36
+Result: ng 
+
+Remaining numbers: 11
+ Character before dividing: 370
+Character in number: 10
+Result: ng a
+
+Remaining numbers: 0
+Character before dividing: 11
+Character in number: 11
+Result: ng ab
+
+Remaining numbers: 1560651
+%Character before dividing: 44979864
+Character in number: 24
+
+Result: o
+
+Remaining numbers: 41061
+$Character before dividing: 1519590
+Character in number: 30
+Result: ou
+
+Remaining numbers: 1360
+"Character before dividing: 39701
+Character in number: 29
+Result: out
+
+Remaining numbers: 28
+!Character before dividing: 1332
+Character in number: 36
+Result: out 
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: out s
+
+Remaining numbers: 952764
+%Character before dividing: 59973152
+Character in number: 32
+
+Result: w
+
+Remaining numbers: 41010
+#Character before dividing: 911754
+Character in number: 18
+Result: wi
+
+Remaining numbers: 1309
+"Character before dividing: 39701
+Character in number: 29
+Result: wit
+
+Remaining numbers: 14
+!Character before dividing: 1295
+Character in number: 35
+Result: witz
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: witze
+
+Remaining numbers: 1078267
+%Character before dividing: 50602347
+Character in number: 27
+
+Result: r
+
+Remaining numbers: 14554
+$Character before dividing: 1063713
+Character in number: 21
+Result: rl
+
+Remaining numbers: 864
+"Character before dividing: 13690
+Character in number: 10
+Result: rla
+
+Remaining numbers: 13
+ Character before dividing: 851
+Character in number: 23
+Result: rlan
+
+Remaining numbers: 0
+Character before dividing: 13
+Character in number: 13
+Result: rland
+
+Remaining numbers: 961543
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 49789
+#Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 505
+"Character before dividing: 49284
+Character in number: 36
+Result:  i 
+
+Remaining numbers: 24
+ Character before dividing: 481
+Character in number: 13
+Result:  i d
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result:  i do
+
+Remaining numbers: 1518984
+%Character before dividing: 43105703
+Character in number: 23
+
+Result: n
+
+Remaining numbers: 50047
+$Character before dividing: 1468937
+Character in number: 29
+Result: nt
+
+Remaining numbers: 763
+"Character before dividing: 49284
+Character in number: 36
+Result: nt 
+
+Remaining numbers: 23
+ Character before dividing: 740
+Character in number: 20
+Result: nt k
+
+Remaining numbers: 0
+Character before dividing: 23
+Character in number: 23
+Result: nt kn
+
+Remaining numbers: 1670617
+%Character before dividing: 44979864
+Character in number: 24
+
+Result: o
+
+Remaining numbers: 49721
+$Character before dividing: 1620896
+Character in number: 32
+Result: ow
+
+Remaining numbers: 437
+"Character before dividing: 49284
+Character in number: 36
+Result: ow 
+
+Remaining numbers: 30
+ Character before dividing: 407
+Character in number: 11
+Result: ow b
+
+Remaining numbers: 0
+Character before dividing: 30
+Character in number: 30
+Result: ow bu
+
+Remaining numbers: 1863852
+%Character before dividing: 54350669
+Character in number: 29
+
+Result: t
+
+Remaining numbers: 40344
+$Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 643
+"Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 14
+ Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: t the
+
+Remaining numbers: 788930
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 29135
+#Character before dividing: 759795
+Character in number: 15
+Result:  f
+
+Remaining numbers: 386
+"Character before dividing: 28749
+Character in number: 21
+Result:  fl
+
+Remaining numbers: 16
+ Character before dividing: 370
+Character in number: 10
+Result:  fla
+
+Remaining numbers: 0
+Character before dividing: 16
+Character in number: 16
+Result:  flag
+
+Remaining numbers: 951428
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 39674
+#Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 1342
+"Character before dividing: 38332
+Character in number: 28
+Result:  is
+
+Remaining numbers: 10
+!Character before dividing: 1332
+Character in number: 36
+Result:  is 
+
+Remaining numbers: 0
+Character before dividing: 10
+Character in number: 10
+Result:  is a
+
+Remaining numbers: 1296212
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 29887
+$Character before dividing: 1266325
+Character in number: 25
+Result:  p
+
+Remaining numbers: 1138
+"Character before dividing: 28749
+Character in number: 21
+Result:  pl
+
+Remaining numbers: 28
+!Character before dividing: 1110
+Character in number: 30
+Result:  plu
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result:  plus
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+
+Result: 0
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 0000
+
+Remaining numbers: 0
+Character before dividing: 0
+Character in number: 0
+Result: 00000
+
+Remaining numbers: 962081
+%Character before dividing: 31860737
+Character in number: 17
+
+Result: h
+
+Remaining numbers: 50327
+#Character before dividing: 911754
+Character in number: 18
+Result: hi
+
+Remaining numbers: 1043
+"Character before dividing: 49284
+Character in number: 36
+Result: hi 
+
+Remaining numbers: 7
+!Character before dividing: 1036
+Character in number: 28
+Result: hi s
+
+Remaining numbers: 0
+Character before dividing: 7
+Character in number: 7
+Result: hi s7
+
+Remaining numbers: 1874160
+%Character before dividing: 67469796
+Character in number: 36
+
+Result:  
+
+Remaining numbers: 50652
+$Character before dividing: 1823508
+Character in number: 36
+Result:   
+
+Remaining numbers: 1368
+"Character before dividing: 49284
+Character in number: 36
+Result:    
+
+Remaining numbers: 36
+!Character before dividing: 1332
+Character in number: 36
+Result:     
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result:      
+
+	Remaining numbers: 750051
+	%Character before dividing: 43105703
+	Character in number: 23
+	
+Result: n
+	
+	Remaining numbers: 40909
+	#Character before dividing: 709142
+	Character in number: 14
+	Result: ne
+	
+	Remaining numbers: 1208
+	"Character before dividing: 39701
+	Character in number: 29
+	Result: net
+	
+	Remaining numbers: 24
+	!Character before dividing: 1184
+	Character in number: 32
+	Result: netw
+	
+	Remaining numbers: 0
+	Character before dividing: 24
+	Character in number: 24
+	Result: netwo
+	
+*-i: 0
+*-i: 1
+*-i: 2
+*-i: 3
+*-i: 4
+*.i: 0
+*.i: 1
+*.i: 2
+*.i: 3
+*.i: 4
+*/i: 0
+*/i: 1
+*/i: 2
+*/i: 3
+*/i: 4
+*/i: 5
+*/i: 5
+*/i: 6
+*/i: 7
+*/i: 8
+*/i: 9
+*0Remaining numbers: 1
+*0Character before dividing: 0
+*0Character in number: 0
+*0
+Result: 0
+*0
+*0Remaining numbers: 1
+*0Character before dividing: 0
+*0Character in number: 0
+*0Result: 00
+*0
+*0Remaining numbers: 1
+*0Character before dividing: 0
+*0Character in number: 0
+*0Result: 000
+*0
+*0Remaining numbers: 1
+*0Character before dividing: 0
+*0Character in number: 0
+*0Result: 0000
+*0
+*0Remaining numbers: 0
+*0Character before dividing: 1
+*0Character in number: 1
+*0Result: 00001
+*0
+*1Remaining numbers: 5
+*1Character before dividing: 0
+*1Character in number: 0
+*1
+Result: 0
+*1
+*1Remaining numbers: 5
+*1Character before dividing: 0
+*1Character in number: 0
+*1Result: 00
+*1
+*1Remaining numbers: 5
+*1Character before dividing: 0
+*1Character in number: 0
+*1Result: 000
+*1
+*1Remaining numbers: 5
+*1Character before dividing: 0
+*1Character in number: 0
+*1Result: 0000
+*1
+*1Remaining numbers: 0
+*1Character before dividing: 5
+*1Character in number: 5
+*1Result: 00005
+*1
+*1Remaining numbers: 16
+*1Character before dividing: 0
+*1Character in number: 0
+*1
+Result: 0
+*1
+*1Remaining numbers: 16
+*1Character before dividing: 0
+*1Character in number: 0
+*1Result: 00
+*1
+*1Remaining numbers: 16
+*1Character before dividing: 0
+*1Character in number: 0
+*1Result: 000
+*1
+*1Remaining numbers: 16
+*1Character before dividing: 0
+*1Character in number: 0
+*1Result: 0000
+*1
+*1Remaining numbers: 0
+*1Character before dividing: 16
+*1Character in number: 16
+*1Result: 0000g
+*1
+*2i: 0
+*2i: 1
+*2i: 2
+*2i: 3
+*2i: 4
+*2i: 5
+*2i: 5
+*2i: 6
+*2i: 7
+*2i: 8
+*2i: 9
+*2i: 10
+*2i: 10
+*2i: 11
+*2i: 12
+*2i: 13
+*2i: 14
+*2i: 15
+*2i: 15
+*2i: 16
+*2i: 17
+*2i: 18
+*2i: 19
+*2i: 20
+*2i: 20
+*2i: 21
+*2i: 22
+*2i: 23
+*2i: 24
+*2i: 25
+*2i: 25
+*2i: 26
+*2i: 27
+*2i: 28
+*2i: 29
+*2i: 30
+*2i: 30
+*2i: 31
+*2i: 32
+*2i: 33
+*2i: 34
+*2i: 35
+*2i: 35
+*2i: 36
+*2i: 37
+*2i: 38
+*2i: 39
+*2Remaining numbers: 886815
+*2%Character before dividing: 54350669
+*2Character in number: 29
+*2
+Result: t
+*2
+*2Remaining numbers: 25714
+*2#Character before dividing: 861101
+*2Character in number: 17
+*2Result: th
+*2
+*2Remaining numbers: 1072
+*2"Character before dividing: 24642
+*2Character in number: 18
+*2Result: thi
+*2
+*2Remaining numbers: 36
+*2!Character before dividing: 1036
+*2Character in number: 28
+*2Result: this
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 36
+*2Character in number: 36
+*2Result: this 
+*2
+*2Remaining numbers: 1467974
+*2%Character before dividing: 33734898
+*2Character in number: 18
+*2
+Result: i
+*2
+*2Remaining numbers: 49690
+*2$Character before dividing: 1418284
+*2Character in number: 28
+*2Result: is
+*2
+*2Remaining numbers: 406
+*2"Character before dividing: 49284
+*2Character in number: 36
+*2Result: is 
+*2
+*2Remaining numbers: 36
+*2 Character before dividing: 370
+*2Character in number: 10
+*2Result: is a
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 36
+*2Character in number: 36
+*2Result: is a 
+*2
+*2Remaining numbers: 738692
+*2%Character before dividing: 31860737
+*2Character in number: 17
+*2
+Result: h
+*2
+*2Remaining numbers: 29550
+*2#Character before dividing: 709142
+*2Character in number: 14
+*2Result: he
+*2
+*2Remaining numbers: 801
+*2"Character before dividing: 28749
+*2Character in number: 21
+*2Result: hel
+*2
+*2Remaining numbers: 24
+*2 Character before dividing: 777
+*2Character in number: 21
+*2Result: hell
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 24
+*2Character in number: 24
+*2Result: hello
+*2
+*2Remaining numbers: 1654772
+*2%Character before dividing: 67469796
+*2Character in number: 36
+*2
+Result:  
+*2
+*2Remaining numbers: 33876
+*2$Character before dividing: 1620896
+*2Character in number: 32
+*2Result:  w
+*2
+*2Remaining numbers: 1020
+*2"Character before dividing: 32856
+*2Character in number: 24
+*2Result:  wo
+*2
+*2Remaining numbers: 21
+*2 Character before dividing: 999
+*2Character in number: 27
+*2Result:  wor
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 21
+*2Character in number: 21
+*2Result:  worl
+*2
+*2Remaining numbers: 1843537
+*2%Character before dividing: 24364093
+*2Character in number: 13
+*2
+Result: d
+*2
+*2Remaining numbers: 20029
+*2$Character before dividing: 1823508
+*2Character in number: 36
+*2Result: d 
+*2
+*2Remaining numbers: 863
+*2"Character before dividing: 19166
+*2Character in number: 14
+*2Result: d e
+*2
+*2Remaining numbers: 12
+*2 Character before dividing: 851
+*2Character in number: 23
+*2Result: d en
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 12
+*2Character in number: 12
+*2Result: d enc
+*2
+*2Remaining numbers: 1757514
+*2%Character before dividing: 50602347
+*2Character in number: 27
+*2
+Result: r
+*2
+*2Remaining numbers: 35312
+*2$Character before dividing: 1722202
+*2Character in number: 34
+*2Result: ry
+*2
+*2Remaining numbers: 1087
+*2"Character before dividing: 34225
+*2Character in number: 25
+*2Result: ryp
+*2
+*2Remaining numbers: 14
+*2!Character before dividing: 1073
+*2Character in number: 29
+*2Result: rypt
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 14
+*2Character in number: 14
+*2Result: rypte
+*2
+*2Remaining numbers: 1854172
+*2%Character before dividing: 24364093
+*2Character in number: 13
+*2
+Result: d
+*2
+*2Remaining numbers: 30664
+*2$Character before dividing: 1823508
+*2Character in number: 36
+*2Result: d 
+*2
+*2Remaining numbers: 546
+*2"Character before dividing: 30118
+*2Character in number: 22
+*2Result: d m
+*2
+*2Remaining numbers: 28
+*2 Character before dividing: 518
+*2Character in number: 14
+*2Result: d me
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 28
+*2Character in number: 28
+*2Result: d mes
+*2
+*2Remaining numbers: 528988
+*2%Character before dividing: 52476508
+*2Character in number: 28
+*2
+Result: s
+*2
+*2Remaining numbers: 22458
+*2#Character before dividing: 506530
+*2Character in number: 10
+*2Result: sa
+*2
+*2Remaining numbers: 554
+*2"Character before dividing: 21904
+*2Character in number: 16
+*2Result: sag
+*2
+*2Remaining numbers: 36
+*2 Character before dividing: 518
+*2Character in number: 14
+*2Result: sage
+*2
+*2Remaining numbers: 0
+*2Character before dividing: 36
+*2Character in number: 36
+*2Result: sage 
+*2

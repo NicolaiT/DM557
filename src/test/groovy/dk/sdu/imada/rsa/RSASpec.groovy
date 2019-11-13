@@ -49,7 +49,6 @@ class RSASpec extends spock.lang.Specification {
 	}
 
 
-
 	void "Test encryption and decryption"() {
 		given:
 		RSA rsa = new RSA(1000);

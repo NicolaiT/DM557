@@ -16,17 +16,20 @@ public class AlphabetConversion {
 		int split = 0; // To ensure to print all the characters in a group
 		BigInteger remainingNumbers = number;
 
-		while (remainingNumbers.longValue() != (long) 0 || split != 5) {
+		while (remainingNumbers.compareTo(BigInteger.ZERO) != 0 || split != 5) {
 			if(split == 5) {
 				split = 0;
 			}
-			remainingNumbers = BigInteger.valueOf(remainingNumbers.longValue() % (long) Math.pow(37, power));
+			remainingNumbers = remainingNumbers.mod(BigInteger.valueOf(37).pow(power));
+			//remainingNumbers = BigInteger.valueOf(remainingNumbers.longValue() % (long) Math.pow(37, power));
 			System.out.println("Remaining numbers: " + remainingNumbers);
 
 			BigInteger character =  number.subtract(remainingNumbers); // Character before dividing
 			System.out.println("Character before dividing: " + character);
 
-			character = BigInteger.valueOf(character.longValue()/(long) Math.pow(37, power)); // Use this character to convert to an actual char.
+			character = character.divide(BigInteger.valueOf(37).pow(power));
+			
+			//character = BigInteger.valueOf(character.longValue()/(long) Math.pow(37, power)); // Use this character to convert to an actual char.
 			System.out.println("Character in number: " + character);
 
 			result += CharacterConversion.numberToChar(character);

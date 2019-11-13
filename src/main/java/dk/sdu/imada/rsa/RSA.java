@@ -76,8 +76,30 @@ public class RSA {
      * @return The encrypted message
      */
     public String encryptMessage(String plaintext) {
-        // TODO Implementation needed
-        return null;
+        BigInteger result;
+        String resultString = "";
+        String substring = "";
+        for(int i = 0; i < plaintext.length(); i++) {
+            while(plaintext.length() % 5 != 0) {
+                plaintext = plaintext.concat(" ");
+            }
+            System.out.println("i: " + i);
+            if(substring.length() % 5 != 0 || substring.length() == 0) {
+                Character character = plaintext.charAt(i);
+                substring = substring.concat(character.toString());
+            } else {
+                result = AlphabetConversion.stringToNumber(substring);
+                result = result.modPow(e, n);
+                resultString = resultString.concat(result.toString() + "\n");
+                substring = "";
+                i--;
+            }
+        }
+        result = AlphabetConversion.stringToNumber(substring);
+        result = result.modPow(e, n);
+        resultString = resultString.concat(result.toString() + '\n');
+
+        return resultString;
     }
 
     /**
@@ -86,7 +108,15 @@ public class RSA {
      * @return Decrypted plaintext message
      */
     public String decrypt(String cipherText) {
-        // TODO Implementation needed
-        return null;
+        BigInteger result;
+        String finalResult = "";
+        String[] numbers = cipherText.split("\n");
+        for (String number : numbers) {
+            result = new BigInteger(number);
+            result = result.modPow(d, n);
+            String stringResult = AlphabetConversion.numberToString(result);
+            finalResult = finalResult.concat(stringResult.toString());
+        }
+        return finalResult;
     }
 }

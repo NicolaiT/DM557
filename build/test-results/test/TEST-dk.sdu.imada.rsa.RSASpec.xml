@@ -1,89 +1,358 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dk.sdu.imada.rsa.RSASpec" tests="9" skipped="0" failures="6" errors="0" timestamp="2019-11-10T14:39:59" hostname="DESKTOP-V2FVHDK" time="0.253">
+<testsuite name="dk.sdu.imada.rsa.RSASpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-11-13T13:19:37" hostname="DESKTOP-V2FVHDK" time="0.2">
   <properties/>
-  <testcase name="Test d is correct set when values are given RSA(13,17,5) =&gt; d=77" classname="dk.sdu.imada.rsa.RSASpec" time="0.003"/>
+  <testcase name="Test d is correct set when values are given RSA(13,17,5) =&gt; d=77" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
   <testcase name="Test d is correct set when values are given RSA(13,17,7) =&gt; d=55" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
   <testcase name="Test d is correct set when values are given RSA(13,17,11) =&gt; d=35" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
-  <testcase name="Test encryption only with small example '00001'=&gt;'1&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001">
-    <failure message="Condition not satisfied:&#10;&#10;rsa.encryptMessage(text) == result&#10;|   |              |     |  |&#10;|   null           00001 |  1&#10;|                        false&#10;&lt;dk.sdu.imada.rsa.RSA@be5fd88 random=java.util.Random@3d493c0f primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+  <testcase name="Test encryption only with small example '00001'=&gt;'1&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test encryption only with small example '0000a'=&gt;'108&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test encryption only with small example '000050000g'=&gt;'31&#10;152&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test decryption only with small example '1&#10;' =&gt; '00001'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test decryption only with small example '31&#10;152&#10;' =&gt; '000050000g'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test encryption and decryption" classname="dk.sdu.imada.rsa.RSASpec" time="0.195"/>
+  <system-out><![CDATA[i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+i: 5
+i: 6
+i: 7
+i: 8
+i: 9
+Remaining numbers: 1
+Character before dividing: 0
+Character in number: 0
+Result: 0
 
-rsa.encryptMessage(text) == result
-|   |              |     |  |
-|   null           00001 |  1
-|                        false
-&lt;dk.sdu.imada.rsa.RSA@be5fd88 random=java.util.Random@3d493c0f primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;
+Remaining numbers: 1
+Character before dividing: 0
+Character in number: 0
+Result: 00
 
-	at dk.sdu.imada.rsa.RSASpec.Test encryption only with small example '#text'=&gt;'#result'(RSASpec.groovy:28)
-</failure>
-  </testcase>
-  <testcase name="Test encryption only with small example '0000a'=&gt;'108&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001">
-    <failure message="Condition not satisfied:&#10;&#10;rsa.encryptMessage(text) == result&#10;|   |              |     |  |&#10;|   null           0000a |  108&#10;|                        false&#10;&lt;dk.sdu.imada.rsa.RSA@413a37e7 random=java.util.Random@2892e79d primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+Remaining numbers: 1
+Character before dividing: 0
+Character in number: 0
+Result: 000
 
-rsa.encryptMessage(text) == result
-|   |              |     |  |
-|   null           0000a |  108
-|                        false
-&lt;dk.sdu.imada.rsa.RSA@413a37e7 random=java.util.Random@2892e79d primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;
+Remaining numbers: 1
+Character before dividing: 0
+Character in number: 0
+Result: 0000
 
-	at dk.sdu.imada.rsa.RSASpec.Test encryption only with small example '#text'=&gt;'#result'(RSASpec.groovy:28)
-</failure>
-  </testcase>
-  <testcase name="Test encryption only with small example '000050000g'=&gt;'31&#10;152&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001">
-    <failure message="Condition not satisfied:&#10;&#10;rsa.encryptMessage(text) == result&#10;|   |              |     |  |&#10;|   null           |     |  31&#10;|                  |     |  152&#10;|                  |     false&#10;|                  000050000g&#10;&lt;dk.sdu.imada.rsa.RSA@2bf13148 random=java.util.Random@3c892233 primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+Remaining numbers: 0
+Character before dividing: 1
+Character in number: 1
+Result: 00001
 
-rsa.encryptMessage(text) == result
-|   |              |     |  |
-|   null           |     |  31
-|                  |     |  152
-|                  |     false
-|                  000050000g
-&lt;dk.sdu.imada.rsa.RSA@2bf13148 random=java.util.Random@3c892233 primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;
+Remaining numbers: 5
+Character before dividing: 0
+Character in number: 0
+Result: 0
 
-	at dk.sdu.imada.rsa.RSASpec.Test encryption only with small example '#text'=&gt;'#result'(RSASpec.groovy:28)
-</failure>
-  </testcase>
-  <testcase name="Test decryption only with small example '1&#10;' =&gt; '00001'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001">
-    <failure message="Condition not satisfied:&#10;&#10;rsa.decrypt(text) == result&#10;|   |       |     |  |&#10;|   null    1&#10;    |  00001&#10;|                 false&#10;&lt;dk.sdu.imada.rsa.RSA@5c19985 random=java.util.Random@52df2171 primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+Remaining numbers: 5
+Character before dividing: 0
+Character in number: 0
+Result: 00
 
-rsa.decrypt(text) == result
-|   |       |     |  |
-|   null    1
-    |  00001
-|                 false
-&lt;dk.sdu.imada.rsa.RSA@5c19985 random=java.util.Random@52df2171 primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;
+Remaining numbers: 5
+Character before dividing: 0
+Character in number: 0
+Result: 000
 
-	at dk.sdu.imada.rsa.RSASpec.Test decryption only with small example '#text' =&gt; '#result'(RSASpec.groovy:43)
-</failure>
-  </testcase>
-  <testcase name="Test decryption only with small example '31&#10;152&#10;' =&gt; '000050000g'" classname="dk.sdu.imada.rsa.RSASpec" time="0.002">
-    <failure message="Condition not satisfied:&#10;&#10;rsa.decrypt(text) == result&#10;|   |       |     |  |&#10;|   null    |     |  000050000g&#10;|           |     false&#10;|           31&#10;|           152&#10;&lt;dk.sdu.imada.rsa.RSA@60f33a65 random=java.util.Random@552dc3a6 primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+Remaining numbers: 5
+Character before dividing: 0
+Character in number: 0
+Result: 0000
 
-rsa.decrypt(text) == result
-|   |       |     |  |
-|   null    |     |  000050000g
-|           |     false
-|           31
-|           152
-&lt;dk.sdu.imada.rsa.RSA@60f33a65 random=java.util.Random@552dc3a6 primeOne=13 primeTwo=17 n=221 e=5 d=77 z=192&gt;
+Remaining numbers: 0
+Character before dividing: 5
+Character in number: 5
+Result: 00005
 
-	at dk.sdu.imada.rsa.RSASpec.Test decryption only with small example '#text' =&gt; '#result'(RSASpec.groovy:43)
-</failure>
-  </testcase>
-  <testcase name="Test encryption and decryption" classname="dk.sdu.imada.rsa.RSASpec" time="0.242">
-    <failure message="Condition failed with Exception:&#10;&#10;rsa.decrypt(ciphertext).startsWith(text)&#10;|   |       |           |          |&#10;|   null    null        |          this is a hello world encrypted message&#10;|                       java.lang.NullPointerException: Cannot invoke method startsWith() on null object&#10;|                       &#9;at dk.sdu.imada.rsa.RSASpec.Test encryption and decryption(RSASpec.groovy:62)&#10;&lt;dk.sdu.imada.rsa.RSA@319392fc random=java.util.Random@66a0717a primeOne=8305639024313484280259063440537546789570725388687440572179886836290838003559050127215024858715346376779269988427791631407604114267759955951775627434089743495902700934174133531708633316315240338283199437060135104035278218562982631242591979760493157544540292998816212095920031624812362458663854608310367 primeTwo=8672683263903980690313889978890452899709581832830040060526014680518121938981296088788991906589991871540391006915538176604072472463248274400707692806957848002828501953465906028505951810693457782601758911152560997857174281311869135853457870083663496857711789536495362809583593814396890388648817193281037 n=72032176562191342481313267958791400711695185932477778747259558671336527016648932444473216415414342609353366113630091988109397856086737827079339042777243142689203551828438640343290071828827027537826498129197597904012116390245118442007968966932729464569847212836216534887209627888299303410079097760367249039431142381645830428133653513939181719275999758075048148515174246111224137405775817367549109941173189260515398209727605506995241490745505988544805401569694362190203948122484729703817380973961783629998472939175105372309197823963232908451281752186405865081828829245021480208880168871956497295551610579 e=12245771727353198066388897733648609478464583274792500821717166035940803443186203005187528504197807157 d=68101721082836790468292410578520452857508162619046023788777502126946814299311666570344194254779352688038652759167713893708725372514885036206764301242127560768506189381522140978626525953856617094615152772603593855295063225630636574416256647510815835698482208693090091878803220615532274262659954397840384822176314904456071575447361279200628390593896391929398268604867105769293284507664681161129395626067730821869183366749376437153830900018883836761986003864126715395054663896514896737667920482740731201736374395417124445287324402908224239702067595013080438697969857915957242383928882576247555655116944333 z=72032176562191342481313267958791400711695185932477778747259558671336527016648932444473216415414342609353366113630091988109397856086737827079339042777243142689203551828438640343290071828827027537826498129197597904012116390245118442007968966932729464569847212836216534887209627888299303410079097760367232061108854164180859855180234085939492438968778240594415442613657437151281597059559813350783804602924869599520054879919593830408510482515153505224564353978195630987316308082924515118690372275840898671650260243073212919809322972196136858601437595532003612999293517670115976583440959619109184623750019176&gt;&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+Remaining numbers: 16
+Character before dividing: 0
+Character in number: 0
+Result: 0
 
-rsa.decrypt(ciphertext).startsWith(text)
-|   |       |           |          |
-|   null    null        |          this is a hello world encrypted message
-|                       java.lang.NullPointerException: Cannot invoke method startsWith() on null object
-|                       	at dk.sdu.imada.rsa.RSASpec.Test encryption and decryption(RSASpec.groovy:62)
-&lt;dk.sdu.imada.rsa.RSA@319392fc random=java.util.Random@66a0717a primeOne=8305639024313484280259063440537546789570725388687440572179886836290838003559050127215024858715346376779269988427791631407604114267759955951775627434089743495902700934174133531708633316315240338283199437060135104035278218562982631242591979760493157544540292998816212095920031624812362458663854608310367 primeTwo=8672683263903980690313889978890452899709581832830040060526014680518121938981296088788991906589991871540391006915538176604072472463248274400707692806957848002828501953465906028505951810693457782601758911152560997857174281311869135853457870083663496857711789536495362809583593814396890388648817193281037 n=72032176562191342481313267958791400711695185932477778747259558671336527016648932444473216415414342609353366113630091988109397856086737827079339042777243142689203551828438640343290071828827027537826498129197597904012116390245118442007968966932729464569847212836216534887209627888299303410079097760367249039431142381645830428133653513939181719275999758075048148515174246111224137405775817367549109941173189260515398209727605506995241490745505988544805401569694362190203948122484729703817380973961783629998472939175105372309197823963232908451281752186405865081828829245021480208880168871956497295551610579 e=12245771727353198066388897733648609478464583274792500821717166035940803443186203005187528504197807157 d=68101721082836790468292410578520452857508162619046023788777502126946814299311666570344194254779352688038652759167713893708725372514885036206764301242127560768506189381522140978626525953856617094615152772603593855295063225630636574416256647510815835698482208693090091878803220615532274262659954397840384822176314904456071575447361279200628390593896391929398268604867105769293284507664681161129395626067730821869183366749376437153830900018883836761986003864126715395054663896514896737667920482740731201736374395417124445287324402908224239702067595013080438697969857915957242383928882576247555655116944333 z=72032176562191342481313267958791400711695185932477778747259558671336527016648932444473216415414342609353366113630091988109397856086737827079339042777243142689203551828438640343290071828827027537826498129197597904012116390245118442007968966932729464569847212836216534887209627888299303410079097760367232061108854164180859855180234085939492438968778240594415442613657437151281597059559813350783804602924869599520054879919593830408510482515153505224564353978195630987316308082924515118690372275840898671650260243073212919809322972196136858601437595532003612999293517670115976583440959619109184623750019176&gt;
+Remaining numbers: 16
+Character before dividing: 0
+Character in number: 0
+Result: 00
 
-	at dk.sdu.imada.rsa.RSASpec.Test encryption and decryption(RSASpec.groovy:62)
-Caused by: java.lang.NullPointerException: Cannot invoke method startsWith() on null object
-	... 1 more
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
+Remaining numbers: 16
+Character before dividing: 0
+Character in number: 0
+Result: 000
+
+Remaining numbers: 16
+Character before dividing: 0
+Character in number: 0
+Result: 0000
+
+Remaining numbers: 0
+Character before dividing: 16
+Character in number: 16
+Result: 0000g
+
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+i: 5
+i: 6
+i: 7
+i: 8
+i: 9
+i: 10
+i: 10
+i: 11
+i: 12
+i: 13
+i: 14
+i: 15
+i: 15
+i: 16
+i: 17
+i: 18
+i: 19
+i: 20
+i: 20
+i: 21
+i: 22
+i: 23
+i: 24
+i: 25
+i: 25
+i: 26
+i: 27
+i: 28
+i: 29
+i: 30
+i: 30
+i: 31
+i: 32
+i: 33
+i: 34
+i: 35
+i: 35
+i: 36
+i: 37
+i: 38
+i: 39
+Remaining numbers: 886815
+Character before dividing: 54350669
+Character in number: 29
+Result: t
+
+Remaining numbers: 25714
+Character before dividing: 861101
+Character in number: 17
+Result: th
+
+Remaining numbers: 1072
+Character before dividing: 24642
+Character in number: 18
+Result: thi
+
+Remaining numbers: 36
+Character before dividing: 1036
+Character in number: 28
+Result: this
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: this 
+
+Remaining numbers: 1467974
+Character before dividing: 33734898
+Character in number: 18
+Result: i
+
+Remaining numbers: 49690
+Character before dividing: 1418284
+Character in number: 28
+Result: is
+
+Remaining numbers: 406
+Character before dividing: 49284
+Character in number: 36
+Result: is 
+
+Remaining numbers: 36
+Character before dividing: 370
+Character in number: 10
+Result: is a
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: is a 
+
+Remaining numbers: 738692
+Character before dividing: 31860737
+Character in number: 17
+Result: h
+
+Remaining numbers: 29550
+Character before dividing: 709142
+Character in number: 14
+Result: he
+
+Remaining numbers: 801
+Character before dividing: 28749
+Character in number: 21
+Result: hel
+
+Remaining numbers: 24
+Character before dividing: 777
+Character in number: 21
+Result: hell
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result: hello
+
+Remaining numbers: 1654772
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 33876
+Character before dividing: 1620896
+Character in number: 32
+Result:  w
+
+Remaining numbers: 1020
+Character before dividing: 32856
+Character in number: 24
+Result:  wo
+
+Remaining numbers: 21
+Character before dividing: 999
+Character in number: 27
+Result:  wor
+
+Remaining numbers: 0
+Character before dividing: 21
+Character in number: 21
+Result:  worl
+
+Remaining numbers: 1843537
+Character before dividing: 24364093
+Character in number: 13
+Result: d
+
+Remaining numbers: 20029
+Character before dividing: 1823508
+Character in number: 36
+Result: d 
+
+Remaining numbers: 863
+Character before dividing: 19166
+Character in number: 14
+Result: d e
+
+Remaining numbers: 12
+Character before dividing: 851
+Character in number: 23
+Result: d en
+
+Remaining numbers: 0
+Character before dividing: 12
+Character in number: 12
+Result: d enc
+
+Remaining numbers: 1757514
+Character before dividing: 50602347
+Character in number: 27
+Result: r
+
+Remaining numbers: 35312
+Character before dividing: 1722202
+Character in number: 34
+Result: ry
+
+Remaining numbers: 1087
+Character before dividing: 34225
+Character in number: 25
+Result: ryp
+
+Remaining numbers: 14
+Character before dividing: 1073
+Character in number: 29
+Result: rypt
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: rypte
+
+Remaining numbers: 1854172
+Character before dividing: 24364093
+Character in number: 13
+Result: d
+
+Remaining numbers: 30664
+Character before dividing: 1823508
+Character in number: 36
+Result: d 
+
+Remaining numbers: 546
+Character before dividing: 30118
+Character in number: 22
+Result: d m
+
+Remaining numbers: 28
+Character before dividing: 518
+Character in number: 14
+Result: d me
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: d mes
+
+Remaining numbers: 528988
+Character before dividing: 52476508
+Character in number: 28
+Result: s
+
+Remaining numbers: 22458
+Character before dividing: 506530
+Character in number: 10
+Result: sa
+
+Remaining numbers: 554
+Character before dividing: 21904
+Character in number: 16
+Result: sag
+
+Remaining numbers: 36
+Character before dividing: 518
+Character in number: 14
+Result: sage
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: sage 
+
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

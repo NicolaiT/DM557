@@ -1,52 +1,851 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dk.sdu.imada.rsa.AssignmentSpec" tests="3" skipped="0" failures="2" errors="0" timestamp="2019-11-10T14:39:58" hostname="DESKTOP-V2FVHDK" time="0.152">
+<testsuite name="dk.sdu.imada.rsa.AssignmentSpec" tests="3" skipped="0" failures="1" errors="0" timestamp="2019-11-13T13:19:37" hostname="DESKTOP-V2FVHDK" time="0.2">
   <properties/>
-  <testcase name="test euclidean algorithm" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.101"/>
-  <testcase name="Test encryption" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.047">
-    <failure message="Condition not satisfied:&#10;&#10;encrypted == &quot;&quot;&quot;&lt;The answer should replace this message&gt;&quot;&quot;&quot;&#10;|         |&#10;null      false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+  <testcase name="test euclidean algorithm" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.098"/>
+  <testcase name="Test encryption" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.057">
+    <failure message="Condition not satisfied:&#10;&#10;encrypted == &quot;&quot;&quot;163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756 202574766722208136313166663476564327834649003680637924023400022051716599540600055216461598632129559212761631470750669420 598960474564883367427080207709063755391591555682231814415513679734554747491160863687394585193290492889732805804107861555 220320145777862357441738877551067816692274577052115135074001448332611340178117207579718665466624807488912315490524200505 271582059888190233971804329802513179736903028870275062782161310802841999449479119326303821559863934078329429119891352357 1274506126335098257279145700985962069205914183404605046759957752207099277163051066194993909105653141473666302053261269506 1207112574213818870057677547911566678577137976266756261325173475348431775451185421263551412603804342392764225452068471571 287798322661892771800896866760889466548605993764324633734788160082572355642668947740262567924979636127922885225467414340 680340601307072977008828883968687722500620815383938859762893080409916789275240486679313430943956727992275053358071058825&quot;&quot;&quot;&#10;|         |&#10;|         false&#10;|         1 difference (90% similarity) (comparing subset start: 1080, end1: 1091, end2: 1090)&#10;|         8071058825(\n)&#10;|         8071058825(-~)&#10;163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756&#10;202574766722208136313166663476564327834649003680637924023400022051716599540600055216461598632129559212761631470750669420&#10;598960474564883367427080207709063755391591555682231814415513679734554747491160863687394585193290492889732805804107861555&#10;220320145777862357441738877551067816692274577052115135074001448332611340178117207579718665466624807488912315490524200505&#10;271582059888190233971804329802513179736903028870275062782161310802841999449479119326303821559863934078329429119891352357&#10;1274506126335098257279145700985962069205914183404605046759957752207099277163051066194993909105653141473666302053261269506&#10;1207112574213818870057677547911566678577137976266756261325173475348431775451185421263551412603804342392764225452068471571&#10;287798322661892771800896866760889466548605993764324633734788160082572355642668947740262567924979636127922885225467414340&#10;680340601307072977008828883968687722500620815383938859762893080409916789275240486679313430943956727992275053358071058825&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
 
-encrypted == &quot;&quot;&quot;&lt;The answer should replace this message&gt;&quot;&quot;&quot;
+encrypted == &quot;&quot;&quot;163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756 202574766722208136313166663476564327834649003680637924023400022051716599540600055216461598632129559212761631470750669420 598960474564883367427080207709063755391591555682231814415513679734554747491160863687394585193290492889732805804107861555 220320145777862357441738877551067816692274577052115135074001448332611340178117207579718665466624807488912315490524200505 271582059888190233971804329802513179736903028870275062782161310802841999449479119326303821559863934078329429119891352357 1274506126335098257279145700985962069205914183404605046759957752207099277163051066194993909105653141473666302053261269506 1207112574213818870057677547911566678577137976266756261325173475348431775451185421263551412603804342392764225452068471571 287798322661892771800896866760889466548605993764324633734788160082572355642668947740262567924979636127922885225467414340 680340601307072977008828883968687722500620815383938859762893080409916789275240486679313430943956727992275053358071058825&quot;&quot;&quot;
 |         |
-null      false
+|         false
+|         1 difference (90% similarity) (comparing subset start: 1080, end1: 1091, end2: 1090)
+|         8071058825(\n)
+|         8071058825(-~)
+163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756
+202574766722208136313166663476564327834649003680637924023400022051716599540600055216461598632129559212761631470750669420
+598960474564883367427080207709063755391591555682231814415513679734554747491160863687394585193290492889732805804107861555
+220320145777862357441738877551067816692274577052115135074001448332611340178117207579718665466624807488912315490524200505
+271582059888190233971804329802513179736903028870275062782161310802841999449479119326303821559863934078329429119891352357
+1274506126335098257279145700985962069205914183404605046759957752207099277163051066194993909105653141473666302053261269506
+1207112574213818870057677547911566678577137976266756261325173475348431775451185421263551412603804342392764225452068471571
+287798322661892771800896866760889466548605993764324633734788160082572355642668947740262567924979636127922885225467414340
+680340601307072977008828883968687722500620815383938859762893080409916789275240486679313430943956727992275053358071058825
 
-	at dk.sdu.imada.rsa.AssignmentSpec.Test encryption(AssignmentSpec.groovy:38)
+	at dk.sdu.imada.rsa.AssignmentSpec.Test encryption(AssignmentSpec.groovy:36)
 </failure>
   </testcase>
-  <testcase name="Test decryption" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.004">
-    <failure message="Condition not satisfied:&#10;&#10;rsa.decrypt(ciphertext) == &quot;&lt;Replace this message with the correct result&gt;&quot;&#10;|   |       |           |&#10;|   null    |           false&#10;|           163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756&#10;|           1403088031255559788723512901657758136170056090141319566727530852705583581269998099387206638350077870095092242176348918069&#10;|           160739623481607389014498189641816753489485837619050842354751944615037232215672505810744270521558551954216885911976767837&#10;|           1362288427881790052640868072591543768924759105448001010174526644364994995822154399865380639790114884117983728189070514561&#10;|           906627797097826904369253078816059979692649219583221706955726703240165882975063108357575970281958002921696877657475176625&#10;|           1370521590730394245054191956703148163654652507411227750317194825895537391417969895809268529695964616324077003096585236684&#10;|           772614893989252917154634048744147735301791670782651126965222754352798794618140026965158355895963968925424327853022469097&#10;|           792002950344722191817913285636286157041467873447177930399198278775574356394295166300182427379794453772463012030520124511&#10;|           57495846212629609070693802219532188659957277245478731680688159787712298979944396175336094357823836882892806028162228941&#10;|           1040685262590840101049494642084067503438563912789414012558788670307896343097681035008484536543138834311568478973226575746&#10;|           373027859796576198248309859640432154037525939411862492279129495640839583762381801992328202520688569550384199396455679537&#10;|           1037588909346988937458915062798696942157432829863519571000308443146335211615382768295429821260735178460732788678585288665&#10;|           1112392055920577475788615568592667698992173284962034547515487345407013744750589177619165040894940481041228218080553164019&#10;|           689569537429781615303046024463216063837759551563546328579723949756532970641465795305095185890426458231159030495376357412&#10;|           984456805688371298158902771621473150863330165777863304891484348897932827709173775234151036713636728544566396278536323964&#10;&lt;dk.sdu.imada.rsa.RSA@1e044958 random=java.util.Random@22c4b0ce primeOne=1156561771779226504385211474703634660706188015894269578454843 primeTwo=1369432560389383877017373383790225389216006713827806996905907 n=1583833348376108413425569171821668369961624205318597131498317908017075364044496398397540560411849475630678976490919457601 e=47431565080882922701 d=1193763838949810599407374380672945676275460654150500786092796498862915977747337457111137913535748798725638140813481161053 z=1583833348376108413425569171821668369961624205318597131498315382022743195434114995812682066551799553435949254414344096852&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
-
-rsa.decrypt(ciphertext) == &quot;&lt;Replace this message with the correct result&gt;&quot;
-|   |       |           |
-|   null    |           false
-|           163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756
-|           1403088031255559788723512901657758136170056090141319566727530852705583581269998099387206638350077870095092242176348918069
-|           160739623481607389014498189641816753489485837619050842354751944615037232215672505810744270521558551954216885911976767837
-|           1362288427881790052640868072591543768924759105448001010174526644364994995822154399865380639790114884117983728189070514561
-|           906627797097826904369253078816059979692649219583221706955726703240165882975063108357575970281958002921696877657475176625
-|           1370521590730394245054191956703148163654652507411227750317194825895537391417969895809268529695964616324077003096585236684
-|           772614893989252917154634048744147735301791670782651126965222754352798794618140026965158355895963968925424327853022469097
-|           792002950344722191817913285636286157041467873447177930399198278775574356394295166300182427379794453772463012030520124511
-|           57495846212629609070693802219532188659957277245478731680688159787712298979944396175336094357823836882892806028162228941
-|           1040685262590840101049494642084067503438563912789414012558788670307896343097681035008484536543138834311568478973226575746
-|           373027859796576198248309859640432154037525939411862492279129495640839583762381801992328202520688569550384199396455679537
-|           1037588909346988937458915062798696942157432829863519571000308443146335211615382768295429821260735178460732788678585288665
-|           1112392055920577475788615568592667698992173284962034547515487345407013744750589177619165040894940481041228218080553164019
-|           689569537429781615303046024463216063837759551563546328579723949756532970641465795305095185890426458231159030495376357412
-|           984456805688371298158902771621473150863330165777863304891484348897932827709173775234151036713636728544566396278536323964
-&lt;dk.sdu.imada.rsa.RSA@1e044958 random=java.util.Random@22c4b0ce primeOne=1156561771779226504385211474703634660706188015894269578454843 primeTwo=1369432560389383877017373383790225389216006713827806996905907 n=1583833348376108413425569171821668369961624205318597131498317908017075364044496398397540560411849475630678976490919457601 e=47431565080882922701 d=1193763838949810599407374380672945676275460654150500786092796498862915977747337457111137913535748798725638140813481161053 z=1583833348376108413425569171821668369961624205318597131498315382022743195434114995812682066551799553435949254414344096852&gt;
-
-	at dk.sdu.imada.rsa.AssignmentSpec.Test decryption(AssignmentSpec.groovy:72)
-</failure>
-  </testcase>
+  <testcase name="Test decryption" classname="dk.sdu.imada.rsa.AssignmentSpec" time="0.045"/>
   <system-out><![CDATA[gcd(123456544 , 9955487) is [1 , -2283680 , 28319583]
 So -2283680 * 123456544 + 28319583 * 9955487 = 1
 r = 1
 s = -2283680
 t = 28319583
+i: 0
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+i: 5
+i: 6
+i: 7
+i: 8
+i: 9
+i: 10
+i: 10
+i: 11
+i: 12
+i: 13
+i: 14
+i: 15
+i: 15
+i: 16
+i: 17
+i: 18
+i: 19
+i: 20
+i: 20
+i: 21
+i: 22
+i: 23
+i: 24
+i: 25
+i: 25
+i: 26
+i: 27
+i: 28
+i: 29
+i: 30
+i: 30
+i: 31
+i: 32
+i: 33
+i: 34
+i: 35
+i: 35
+i: 36
+i: 37
+i: 38
+i: 39
+i: 40
+i: 40
+i: 41
+i: 42
+i: 43
+i: 44
 The encrypted message for 'what a lovely little coding exercise this is' is
-null
+163539282851503430713649281058826017605780033897423242881455432662877632018769478554353123812963594791485722281476322756
+202574766722208136313166663476564327834649003680637924023400022051716599540600055216461598632129559212761631470750669420
+598960474564883367427080207709063755391591555682231814415513679734554747491160863687394585193290492889732805804107861555
+220320145777862357441738877551067816692274577052115135074001448332611340178117207579718665466624807488912315490524200505
+271582059888190233971804329802513179736903028870275062782161310802841999449479119326303821559863934078329429119891352357
+1274506126335098257279145700985962069205914183404605046759957752207099277163051066194993909105653141473666302053261269506
+1207112574213818870057677547911566678577137976266756261325173475348431775451185421263551412603804342392764225452068471571
+287798322661892771800896866760889466548605993764324633734788160082572355642668947740262567924979636127922885225467414340
+680340601307072977008828883968687722500620815383938859762893080409916789275240486679313430943956727992275053358071058825
+
 The ciphertext decrypted is:
-null
+Remaining numbers: 875900
+Character before dividing: 59973152
+Character in number: 32
+Result: w
+
+Remaining numbers: 14799
+Character before dividing: 861101
+Character in number: 17
+Result: wh
+
+Remaining numbers: 1109
+Character before dividing: 13690
+Character in number: 10
+Result: wha
+
+Remaining numbers: 36
+Character before dividing: 1073
+Character in number: 29
+Result: what
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: what 
+
+Remaining numbers: 1468658
+Character before dividing: 33734898
+Character in number: 18
+Result: i
+
+Remaining numbers: 50374
+Character before dividing: 1418284
+Character in number: 28
+Result: is
+
+Remaining numbers: 1090
+Character before dividing: 49284
+Character in number: 36
+Result: is 
+
+Remaining numbers: 17
+Character before dividing: 1073
+Character in number: 29
+Result: is t
+
+Remaining numbers: 0
+Character before dividing: 17
+Character in number: 17
+Result: is th
+
+Remaining numbers: 1839113
+Character before dividing: 26238254
+Character in number: 14
+Result: e
+
+Remaining numbers: 15605
+Character before dividing: 1823508
+Character in number: 36
+Result: e 
+
+Remaining numbers: 546
+Character before dividing: 15059
+Character in number: 11
+Result: e b
+
+Remaining numbers: 28
+Character before dividing: 518
+Character in number: 14
+Result: e be
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: e bes
+
+Remaining numbers: 1863856
+Character before dividing: 54350669
+Character in number: 29
+Result: t
+
+Remaining numbers: 40348
+Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 647
+Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 18
+Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 18
+Character in number: 18
+Result: t thi
+
+Remaining numbers: 860113
+Character before dividing: 43105703
+Character in number: 23
+Result: n
+
+Remaining numbers: 49665
+Character before dividing: 810448
+Character in number: 16
+Result: ng
+
+Remaining numbers: 381
+Character before dividing: 49284
+Character in number: 36
+Result: ng 
+
+Remaining numbers: 11
+Character before dividing: 370
+Character in number: 10
+Result: ng a
+
+Remaining numbers: 0
+Character before dividing: 11
+Character in number: 11
+Result: ng ab
+
+Remaining numbers: 1560651
+Character before dividing: 44979864
+Character in number: 24
+Result: o
+
+Remaining numbers: 41061
+Character before dividing: 1519590
+Character in number: 30
+Result: ou
+
+Remaining numbers: 1360
+Character before dividing: 39701
+Character in number: 29
+Result: out
+
+Remaining numbers: 28
+Character before dividing: 1332
+Character in number: 36
+Result: out 
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: out s
+
+Remaining numbers: 952764
+Character before dividing: 59973152
+Character in number: 32
+Result: w
+
+Remaining numbers: 41010
+Character before dividing: 911754
+Character in number: 18
+Result: wi
+
+Remaining numbers: 1309
+Character before dividing: 39701
+Character in number: 29
+Result: wit
+
+Remaining numbers: 14
+Character before dividing: 1295
+Character in number: 35
+Result: witz
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: witze
+
+Remaining numbers: 1078267
+Character before dividing: 50602347
+Character in number: 27
+Result: r
+
+Remaining numbers: 14554
+Character before dividing: 1063713
+Character in number: 21
+Result: rl
+
+Remaining numbers: 864
+Character before dividing: 13690
+Character in number: 10
+Result: rla
+
+Remaining numbers: 13
+Character before dividing: 851
+Character in number: 23
+Result: rlan
+
+Remaining numbers: 0
+Character before dividing: 13
+Character in number: 13
+Result: rland
+
+Remaining numbers: 961543
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 49789
+Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 505
+Character before dividing: 49284
+Character in number: 36
+Result:  i 
+
+Remaining numbers: 24
+Character before dividing: 481
+Character in number: 13
+Result:  i d
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result:  i do
+
+Remaining numbers: 1518984
+Character before dividing: 43105703
+Character in number: 23
+Result: n
+
+Remaining numbers: 50047
+Character before dividing: 1468937
+Character in number: 29
+Result: nt
+
+Remaining numbers: 763
+Character before dividing: 49284
+Character in number: 36
+Result: nt 
+
+Remaining numbers: 23
+Character before dividing: 740
+Character in number: 20
+Result: nt k
+
+Remaining numbers: 0
+Character before dividing: 23
+Character in number: 23
+Result: nt kn
+
+Remaining numbers: 1670617
+Character before dividing: 44979864
+Character in number: 24
+Result: o
+
+Remaining numbers: 49721
+Character before dividing: 1620896
+Character in number: 32
+Result: ow
+
+Remaining numbers: 437
+Character before dividing: 49284
+Character in number: 36
+Result: ow 
+
+Remaining numbers: 30
+Character before dividing: 407
+Character in number: 11
+Result: ow b
+
+Remaining numbers: 0
+Character before dividing: 30
+Character in number: 30
+Result: ow bu
+
+Remaining numbers: 1863852
+Character before dividing: 54350669
+Character in number: 29
+Result: t
+
+Remaining numbers: 40344
+Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 643
+Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 14
+Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: t the
+
+Remaining numbers: 788930
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 29135
+Character before dividing: 759795
+Character in number: 15
+Result:  f
+
+Remaining numbers: 386
+Character before dividing: 28749
+Character in number: 21
+Result:  fl
+
+Remaining numbers: 16
+Character before dividing: 370
+Character in number: 10
+Result:  fla
+
+Remaining numbers: 0
+Character before dividing: 16
+Character in number: 16
+Result:  flag
+
+Remaining numbers: 951428
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 39674
+Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 1342
+Character before dividing: 38332
+Character in number: 28
+Result:  is
+
+Remaining numbers: 10
+Character before dividing: 1332
+Character in number: 36
+Result:  is 
+
+Remaining numbers: 0
+Character before dividing: 10
+Character in number: 10
+Result:  is a
+
+Remaining numbers: 1296212
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 29887
+Character before dividing: 1266325
+Character in number: 25
+Result:  p
+
+Remaining numbers: 1138
+Character before dividing: 28749
+Character in number: 21
+Result:  pl
+
+Remaining numbers: 28
+Character before dividing: 1110
+Character in number: 30
+Result:  plu
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result:  plus
+
+what is the best thing about switzerland i dont know but the flag is a plus
+Remaining numbers: 875900
+Character before dividing: 59973152
+Character in number: 32
+Result: w
+
+Remaining numbers: 14799
+Character before dividing: 861101
+Character in number: 17
+Result: wh
+
+Remaining numbers: 1109
+Character before dividing: 13690
+Character in number: 10
+Result: wha
+
+Remaining numbers: 36
+Character before dividing: 1073
+Character in number: 29
+Result: what
+
+Remaining numbers: 0
+Character before dividing: 36
+Character in number: 36
+Result: what 
+
+Remaining numbers: 1468658
+Character before dividing: 33734898
+Character in number: 18
+Result: i
+
+Remaining numbers: 50374
+Character before dividing: 1418284
+Character in number: 28
+Result: is
+
+Remaining numbers: 1090
+Character before dividing: 49284
+Character in number: 36
+Result: is 
+
+Remaining numbers: 17
+Character before dividing: 1073
+Character in number: 29
+Result: is t
+
+Remaining numbers: 0
+Character before dividing: 17
+Character in number: 17
+Result: is th
+
+Remaining numbers: 1839113
+Character before dividing: 26238254
+Character in number: 14
+Result: e
+
+Remaining numbers: 15605
+Character before dividing: 1823508
+Character in number: 36
+Result: e 
+
+Remaining numbers: 546
+Character before dividing: 15059
+Character in number: 11
+Result: e b
+
+Remaining numbers: 28
+Character before dividing: 518
+Character in number: 14
+Result: e be
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: e bes
+
+Remaining numbers: 1863856
+Character before dividing: 54350669
+Character in number: 29
+Result: t
+
+Remaining numbers: 40348
+Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 647
+Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 18
+Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 18
+Character in number: 18
+Result: t thi
+
+Remaining numbers: 860113
+Character before dividing: 43105703
+Character in number: 23
+Result: n
+
+Remaining numbers: 49665
+Character before dividing: 810448
+Character in number: 16
+Result: ng
+
+Remaining numbers: 381
+Character before dividing: 49284
+Character in number: 36
+Result: ng 
+
+Remaining numbers: 11
+Character before dividing: 370
+Character in number: 10
+Result: ng a
+
+Remaining numbers: 0
+Character before dividing: 11
+Character in number: 11
+Result: ng ab
+
+Remaining numbers: 1560651
+Character before dividing: 44979864
+Character in number: 24
+Result: o
+
+Remaining numbers: 41061
+Character before dividing: 1519590
+Character in number: 30
+Result: ou
+
+Remaining numbers: 1360
+Character before dividing: 39701
+Character in number: 29
+Result: out
+
+Remaining numbers: 28
+Character before dividing: 1332
+Character in number: 36
+Result: out 
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result: out s
+
+Remaining numbers: 952764
+Character before dividing: 59973152
+Character in number: 32
+Result: w
+
+Remaining numbers: 41010
+Character before dividing: 911754
+Character in number: 18
+Result: wi
+
+Remaining numbers: 1309
+Character before dividing: 39701
+Character in number: 29
+Result: wit
+
+Remaining numbers: 14
+Character before dividing: 1295
+Character in number: 35
+Result: witz
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: witze
+
+Remaining numbers: 1078267
+Character before dividing: 50602347
+Character in number: 27
+Result: r
+
+Remaining numbers: 14554
+Character before dividing: 1063713
+Character in number: 21
+Result: rl
+
+Remaining numbers: 864
+Character before dividing: 13690
+Character in number: 10
+Result: rla
+
+Remaining numbers: 13
+Character before dividing: 851
+Character in number: 23
+Result: rlan
+
+Remaining numbers: 0
+Character before dividing: 13
+Character in number: 13
+Result: rland
+
+Remaining numbers: 961543
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 49789
+Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 505
+Character before dividing: 49284
+Character in number: 36
+Result:  i 
+
+Remaining numbers: 24
+Character before dividing: 481
+Character in number: 13
+Result:  i d
+
+Remaining numbers: 0
+Character before dividing: 24
+Character in number: 24
+Result:  i do
+
+Remaining numbers: 1518984
+Character before dividing: 43105703
+Character in number: 23
+Result: n
+
+Remaining numbers: 50047
+Character before dividing: 1468937
+Character in number: 29
+Result: nt
+
+Remaining numbers: 763
+Character before dividing: 49284
+Character in number: 36
+Result: nt 
+
+Remaining numbers: 23
+Character before dividing: 740
+Character in number: 20
+Result: nt k
+
+Remaining numbers: 0
+Character before dividing: 23
+Character in number: 23
+Result: nt kn
+
+Remaining numbers: 1670617
+Character before dividing: 44979864
+Character in number: 24
+Result: o
+
+Remaining numbers: 49721
+Character before dividing: 1620896
+Character in number: 32
+Result: ow
+
+Remaining numbers: 437
+Character before dividing: 49284
+Character in number: 36
+Result: ow 
+
+Remaining numbers: 30
+Character before dividing: 407
+Character in number: 11
+Result: ow b
+
+Remaining numbers: 0
+Character before dividing: 30
+Character in number: 30
+Result: ow bu
+
+Remaining numbers: 1863852
+Character before dividing: 54350669
+Character in number: 29
+Result: t
+
+Remaining numbers: 40344
+Character before dividing: 1823508
+Character in number: 36
+Result: t 
+
+Remaining numbers: 643
+Character before dividing: 39701
+Character in number: 29
+Result: t t
+
+Remaining numbers: 14
+Character before dividing: 629
+Character in number: 17
+Result: t th
+
+Remaining numbers: 0
+Character before dividing: 14
+Character in number: 14
+Result: t the
+
+Remaining numbers: 788930
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 29135
+Character before dividing: 759795
+Character in number: 15
+Result:  f
+
+Remaining numbers: 386
+Character before dividing: 28749
+Character in number: 21
+Result:  fl
+
+Remaining numbers: 16
+Character before dividing: 370
+Character in number: 10
+Result:  fla
+
+Remaining numbers: 0
+Character before dividing: 16
+Character in number: 16
+Result:  flag
+
+Remaining numbers: 951428
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 39674
+Character before dividing: 911754
+Character in number: 18
+Result:  i
+
+Remaining numbers: 1342
+Character before dividing: 38332
+Character in number: 28
+Result:  is
+
+Remaining numbers: 10
+Character before dividing: 1332
+Character in number: 36
+Result:  is 
+
+Remaining numbers: 0
+Character before dividing: 10
+Character in number: 10
+Result:  is a
+
+Remaining numbers: 1296212
+Character before dividing: 67469796
+Character in number: 36
+Result:  
+
+Remaining numbers: 29887
+Character before dividing: 1266325
+Character in number: 25
+Result:  p
+
+Remaining numbers: 1138
+Character before dividing: 28749
+Character in number: 21
+Result:  pl
+
+Remaining numbers: 28
+Character before dividing: 1110
+Character in number: 30
+Result:  plu
+
+Remaining numbers: 0
+Character before dividing: 28
+Character in number: 28
+Result:  plus
+
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
