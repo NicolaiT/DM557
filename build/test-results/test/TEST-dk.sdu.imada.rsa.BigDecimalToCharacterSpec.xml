@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-11-13T13:19:37" hostname="DESKTOP-V2FVHDK" time="0.011">
+<testsuite name="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-11-18T10:11:40" hostname="DESKTOP-O4COTV8" time="0.03">
   <properties/>
-  <testcase name="Check exception is thrown for invalid input: null" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.006"/>
+  <testcase name="Check exception is thrown for invalid input: null" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.017"/>
   <testcase name="Check exception is thrown for invalid input: -1" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
-  <testcase name="Check exception is thrown for invalid input: 37" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
-  <testcase name="Check exception is thrown for invalid input: 100" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
-  <testcase name="Check input that map to numbers can be converted correct: 0 = 0" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
+  <testcase name="Check exception is thrown for invalid input: 37" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
+  <testcase name="Check exception is thrown for invalid input: 100" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
+  <testcase name="Check input that map to numbers can be converted correct: 0 = 0" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.002"/>
   <testcase name="Check input that map to numbers can be converted correct: 5 = 5" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
-  <testcase name="Check input that map to numbers can be converted correct: 9 = 9" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
+  <testcase name="Check input that map to numbers can be converted correct: 9 = 9" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
   <testcase name="Check input that map to letters can be converted correct: 10 = a" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
   <testcase name="Check input that map to letters can be converted correct: 11 = b" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
-  <testcase name="Check input that map to letters can be converted correct: 35 = z" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
-  <testcase name="Check input that map to space is converted correct" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
+  <testcase name="Check input that map to letters can be converted correct: 35 = z" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.0"/>
+  <testcase name="Check input that map to space is converted correct" classname="dk.sdu.imada.rsa.BigDecimalToCharacterSpec" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

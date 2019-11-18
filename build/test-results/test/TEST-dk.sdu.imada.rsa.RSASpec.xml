@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dk.sdu.imada.rsa.RSASpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-11-13T13:19:37" hostname="DESKTOP-V2FVHDK" time="0.2">
+<testsuite name="dk.sdu.imada.rsa.RSASpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-11-18T10:11:40" hostname="DESKTOP-O4COTV8" time="0.874">
   <properties/>
-  <testcase name="Test d is correct set when values are given RSA(13,17,5) =&gt; d=77" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test d is correct set when values are given RSA(13,17,5) =&gt; d=77" classname="dk.sdu.imada.rsa.RSASpec" time="0.003"/>
   <testcase name="Test d is correct set when values are given RSA(13,17,7) =&gt; d=55" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
   <testcase name="Test d is correct set when values are given RSA(13,17,11) =&gt; d=35" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
-  <testcase name="Test encryption only with small example '00001'=&gt;'1&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test encryption only with small example '00001'=&gt;'1&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
   <testcase name="Test encryption only with small example '0000a'=&gt;'108&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
-  <testcase name="Test encryption only with small example '000050000g'=&gt;'31&#10;152&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
-  <testcase name="Test decryption only with small example '1&#10;' =&gt; '00001'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
-  <testcase name="Test decryption only with small example '31&#10;152&#10;' =&gt; '000050000g'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
-  <testcase name="Test encryption and decryption" classname="dk.sdu.imada.rsa.RSASpec" time="0.195"/>
-  <system-out><![CDATA[i: 0
-i: 1
-i: 2
-i: 3
-i: 4
-i: 0
-i: 1
-i: 2
-i: 3
-i: 4
-i: 0
-i: 1
-i: 2
-i: 3
-i: 4
-i: 5
-i: 5
-i: 6
-i: 7
-i: 8
-i: 9
-Remaining numbers: 1
+  <testcase name="Test encryption only with small example '000050000g'=&gt;'31&#10;152&#10;'" classname="dk.sdu.imada.rsa.RSASpec" time="0.0"/>
+  <testcase name="Test decryption only with small example '1&#10;' =&gt; '00001'" classname="dk.sdu.imada.rsa.RSASpec" time="0.001"/>
+  <testcase name="Test decryption only with small example '31&#10;152&#10;' =&gt; '000050000g'" classname="dk.sdu.imada.rsa.RSASpec" time="0.002"/>
+  <testcase name="Test encryption and decryption" classname="dk.sdu.imada.rsa.RSASpec" time="0.86"/>
+  <system-out><![CDATA[Remaining numbers: 1
 Character before dividing: 0
 Character in number: 0
 Result: 0
@@ -106,53 +85,6 @@ Character before dividing: 16
 Character in number: 16
 Result: 0000g
 
-i: 0
-i: 1
-i: 2
-i: 3
-i: 4
-i: 5
-i: 5
-i: 6
-i: 7
-i: 8
-i: 9
-i: 10
-i: 10
-i: 11
-i: 12
-i: 13
-i: 14
-i: 15
-i: 15
-i: 16
-i: 17
-i: 18
-i: 19
-i: 20
-i: 20
-i: 21
-i: 22
-i: 23
-i: 24
-i: 25
-i: 25
-i: 26
-i: 27
-i: 28
-i: 29
-i: 30
-i: 30
-i: 31
-i: 32
-i: 33
-i: 34
-i: 35
-i: 35
-i: 36
-i: 37
-i: 38
-i: 39
 Remaining numbers: 886815
 Character before dividing: 54350669
 Character in number: 29

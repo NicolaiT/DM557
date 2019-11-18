@@ -82,9 +82,7 @@ public class RSA {
         for(int i = 0; i < plaintext.length(); i++) {
             while(plaintext.length() % 5 != 0) {
                 plaintext = plaintext.concat(" ");
-            }
-            System.out.println("i: " + i);
-            if(substring.length() % 5 != 0 || substring.length() == 0) {
+            }            if(substring.length() % 5 != 0 || substring.length() == 0) {
                 Character character = plaintext.charAt(i);
                 substring = substring.concat(character.toString());
             } else {
